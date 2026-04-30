@@ -29,7 +29,9 @@ Focus is on understanding **high-level patterns in trip completion and cancellat
 
 ---
 
-You can  find the Tableau Dashboard [here](https://public.tableau.com/app/profile/mostafa.alali/viz/uber_trip_insight/drop_locaion_driver_cancel_reason1)
+**You can  find the Tableau Dashboard** [here](https://public.tableau.com/app/profile/mostafa.alali/viz/uber_trip_insight/drop_locaion_driver_cancel_reason1)
+- 📦 Raw Data: [orders_data_raw_sheet](analysis/ncr_ride_bookings_insigth.xlsx)
+- 📈 Insights & Recommendations: [insights_tab_sheet](analysis/ncr_ride_bookings_insigth.xlsx)
 
 ---
 
@@ -122,7 +124,7 @@ Likely a **calendar effect**, not real demand drop
 ---
 
 ## 6. Cancellation Reason Analysis  
-📌 From **[Tableau Tab → cancel_driver_month_d]**
+📌 From **[Tableau Tab → cancel_driver_month_day]**
 - Cancellation reasons are **uniform across all dimensions**
 
 📌 Insight:
