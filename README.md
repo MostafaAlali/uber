@@ -18,24 +18,18 @@ Focus is on understanding **high-level patterns in trip completion and cancellat
 ## 📊 Key KPI
 - Completed Trips  
 - Cancelled Trips  
-
-## 📁 Columns & Coverage
-- `booking_state`
-- `month`
-
-## 📈 Aggregates & Checks
-- Total bookings by month  
-- Average bookings  
-- Min / Max values  
-- Outlier detection  
+  
 
 ## 🔍 Notable Segments
 - Hour of the day  
 - Day of the month  
 - Cancellation reason  
-- Distance  
 - Pickup & drop-off location  
 - Driver behavior  
+
+---
+
+You can  find the Tableau Dashboard [here](https://public.tableau.com/app/profile/mostafa.alali/viz/uber_trip_insight/drop_locaion_driver_cancel_reason1)
 
 ---
 
@@ -72,9 +66,8 @@ From **[poivet_tabel_1]**:
 📌 Insight:
 No strong seasonality → time is not the main driver  
 
-📌 Recommendation:
-Focus on **trip-level factors instead of monthly trends**
-<img width="985" height="516" alt="all_trip_hour" src="https://github.com/user-attachments/assets/def36d12-bdda-4260-87db-178846535da7" />
+<img width="990" height="518" alt="all_trip_month" src="https://github.com/user-attachments/assets/b47a0915-b55a-4f09-8a17-b254b6f996fe" />
+
 
 ---
 
@@ -87,9 +80,8 @@ Focus on **trip-level factors instead of monthly trends**
 📌 Insight:
 Clear **rush-hour demand spike**
 
-📌 Recommendation:
-Analyze **driver supply vs demand during peak hours**
-<img width="979" height="516" alt="all_cancel_trip_month" src="https://github.com/user-attachments/assets/b383b92c-7fb3-403e-94bd-b9b1ec51298d" />
+<img width="985" height="516" alt="all_trip_hour" src="https://github.com/user-attachments/assets/3fd265f9-e5fc-41c3-a35f-ad3391d75333" />
+
 
 ---
 
@@ -100,10 +92,6 @@ Analyze **driver supply vs demand during peak hours**
 📌 Insight:
 Driver behavior is the **primary bottleneck**
 
-📌 Recommendation:
-Investigate:
-- Acceptance → cancellation flow  
-- Incentives and penalties  
 <img width="983" height="515" alt="all_cancel_trip_hour" src="https://github.com/user-attachments/assets/c4d0663e-552d-45a4-ac69-b9f95363d381" />
 
 ---
@@ -118,11 +106,6 @@ Investigate:
 📌 Insight:
 Indicates a **systematic issue**, not random behavior  
 
-📌 Recommendation:
-Check:
-- Fare structure  
-- Distance  
-- Incentives  
 <img width="979" height="516" alt="all_cancel_trip_month" src="https://github.com/user-attachments/assets/f62f03b5-461d-4f74-8956-e56267760b0e" />
 
 ---
@@ -134,8 +117,6 @@ Check:
 📌 Insight:
 Likely a **calendar effect**, not real demand drop  
 
-📌 Recommendation:
-Normalize metrics by number of days per month  
 <img width="986" height="511" alt="all_cancel_trip_day" src="https://github.com/user-attachments/assets/46c54e5f-e462-4a20-bc73-6a61bfc3df20" />
 
 ---
@@ -147,8 +128,6 @@ Normalize metrics by number of days per month
 📌 Insight:
 Drivers may be selecting **default or inaccurate reasons**
 
-📌 Recommendation:
-Improve **reason selection UX and validation**
 <img width="988" height="512" alt="cancel_driver_month_days" src="https://github.com/user-attachments/assets/0cc0c057-fc1e-4b1b-bcc5-eac49bf0553b" />
 
 ---
@@ -160,8 +139,7 @@ Improve **reason selection UX and validation**
 📌 Insight:
 Distance is the **strongest driver of cancellations**
 
-📌 Recommendation:
-Focus analysis on **distance-based segmentation**
+
 <img width="977" height="185" alt="distance_statue_seg" src="https://github.com/user-attachments/assets/395451d6-205a-4a82-b1e2-1f939c2c358b" />
 
 ---
@@ -173,8 +151,7 @@ Focus analysis on **distance-based segmentation**
 📌 Insight:
 Location is **not a key factor**
 
-📌 Recommendation:
-Prioritize **distance over geography**
+
 <img width="987" height="515" alt="distance_statue_seg_drop" src="https://github.com/user-attachments/assets/60cc12e3-6ea6-44da-9dcb-da8487fea488" />
 
 ---
@@ -238,4 +215,4 @@ Prioritize **distance over geography**
 ---
 
 # 👨‍💻 Author
-Trip Data Analysis Project (Operational & Behavioral Insights)
+Mostafa Alali
